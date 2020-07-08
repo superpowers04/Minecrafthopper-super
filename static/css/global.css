@@ -6,7 +6,7 @@ body {
     margin: 0 auto;
     max-width: 1080px;
 }
-#mastheadm, .help-page-header{
+.mastheadm, .help-page-header{
 	background-color: darkslategray; 
 	color: whitesmoke; 
 	display: block; 
