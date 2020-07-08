@@ -49,8 +49,8 @@
     <ul>
         <li>Open a terminal window</li>
         <li>Type in the terminal:
-            &nbsp;<code>mcd=\~/Library/Application\ Support/minecraft &amp;&amp; mv $mcd\/saves ~/temp/saves &amp;&amp;
-                rm -fr $mcd\/* &amp;&amp; mv ~/temp/saves/ $mcd</code>
+            &nbsp;<code>mv ~/Library/Application\ Support/minecraft/saves ~/minecraftsaves;
+                rm -fr ~/Library/Application\ Support/minecraft/*; mv ~/minecraftsaves ~/Library/Application\ Support/minecraft/saves</code>
         </li>
     </ul>
     <fieldset>
@@ -61,8 +61,8 @@
     <ul>
         <li>Open a terminal window</li>
         <li>Type in
-            &nbsp;<code>mcd=\~/.minecraft &amp;&amp; mv $mcd\/saves ~/temp/saves &amp;&amp; rm -fr $mcd\/* &amp;&amp; mv
-                ~/temp/saves/ $mcd</code>
+            &nbsp;<code>mv ~/.minecraft/saves /tmp/saves; rm -fr ~/.minecraft/*; mv
+                /tmp/saves ~/.minecraft/</code>
         </li>
     </ul>
     <fieldset>
